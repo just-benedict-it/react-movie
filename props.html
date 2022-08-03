@@ -1,0 +1,25 @@
+<html lang="en">
+  <head> </head>
+  <body>
+    <div class="root"></div>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    const div = document.querySelector(".root");
+    function Btn({ banana }) {
+      return <button>{banana}</button>;
+    }
+    function APP() {
+      return (
+        <>
+          <Btn banana="a" />
+          <Btn banana="ㅋㅋㅋ" />
+        </>
+      );
+    }
+    ReactDOM.render(<APP />, div);
+  </script>
+</html>
