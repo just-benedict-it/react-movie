@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
 import propTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
+
 function Movie({ id, title, year, medium_cover_image, summary, genres }) {
   return (
     <div>
@@ -22,6 +22,7 @@ function Movie({ id, title, year, medium_cover_image, summary, genres }) {
 }
 
 Movie.propTypes = {
+  id: propTypes.number.isRequired,
   title: propTypes.string.isRequired,
   year: propTypes.number.isRequired,
   medium_cover_image: propTypes.string.isRequired,

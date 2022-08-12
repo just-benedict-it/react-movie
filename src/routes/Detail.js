@@ -4,12 +4,12 @@ import { useEffect } from "react";
 
 function Detail() {
   const id = useParams().id;
-  console.log(id);
   useEffect(() => {
     fetch(`https://yts.mx/api/v2/movie_details.json?movie_id=${id}`)
       .then((response) => response.json())
       .then((json) => console.log(json));
   }, []);
+
   return (
     <>
       <h1>detail</h1>
