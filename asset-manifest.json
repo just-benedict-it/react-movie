@@ -1,11 +1,11 @@
 {
-  "main.js": "/react-movie.git/static/js/main.0ed9b877.chunk.js",
-  "main.js.map": "/react-movie.git/static/js/main.0ed9b877.chunk.js.map",
-  "static/js/1.288f537e.chunk.js": "/react-movie.git/static/js/1.288f537e.chunk.js",
-  "static/js/1.288f537e.chunk.js.map": "/react-movie.git/static/js/1.288f537e.chunk.js.map",
-  "runtime~main.js": "/react-movie.git/static/js/runtime~main.abdd3fc0.js",
-  "runtime~main.js.map": "/react-movie.git/static/js/runtime~main.abdd3fc0.js.map",
-  "index.html": "/react-movie.git/index.html",
-  "precache-manifest.5ed2052f7f2ef96b7ad132d61b2193ea.js": "/react-movie.git/precache-manifest.5ed2052f7f2ef96b7ad132d61b2193ea.js",
-  "service-worker.js": "/react-movie.git/service-worker.js"
+  "main.js": "/react-movie/static/js/main.678dc115.chunk.js",
+  "main.js.map": "/react-movie/static/js/main.678dc115.chunk.js.map",
+  "static/js/1.288f537e.chunk.js": "/react-movie/static/js/1.288f537e.chunk.js",
+  "static/js/1.288f537e.chunk.js.map": "/react-movie/static/js/1.288f537e.chunk.js.map",
+  "runtime~main.js": "/react-movie/static/js/runtime~main.8b6a66f8.js",
+  "runtime~main.js.map": "/react-movie/static/js/runtime~main.8b6a66f8.js.map",
+  "index.html": "/react-movie/index.html",
+  "precache-manifest.2c1a510cdd50c95ccd8eb47281d860a7.js": "/react-movie/precache-manifest.2c1a510cdd50c95ccd8eb47281d860a7.js",
+  "service-worker.js": "/react-movie/service-worker.js"
 }
